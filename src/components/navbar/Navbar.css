@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 10px;
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__button {
+  background-color: #f0f8ff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navbar__login {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar__register {
+  background-color: #0074D9;
+  color: #fff;
+}
+.navbar__logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo-img {
+  max-height: 50px;
+}
+
+.navbar__logo-title {
+  margin-left: 10px;
+}
